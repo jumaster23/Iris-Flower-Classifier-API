@@ -1,0 +1,38 @@
+{
+  "model": "RandomForestClassifier",
+  "filename": "random_forest.joblib",
+  "accuracy": 0.9333,
+  "cv_mean": 0.9667,
+  "cv_std": 0.0211,
+  "features": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "classes": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "all_models": {
+    "random_forest": {
+      "accuracy": 0.9333,
+      "cv_mean": 0.9667,
+      "cv_std": 0.0211
+    },
+    "logistic_regression": {
+      "accuracy": 0.9333,
+      "cv_mean": 0.96,
+      "cv_std": 0.0389
+    },
+    "svm": {
+      "accuracy": 0.9667,
+      "cv_mean": 0.9667,
+      "cv_std": 0.0211
+    }
+  },
+  "dataset": "Iris (UCI)",
+  "n_samples_train": 120,
+  "n_samples_test": 30
+}

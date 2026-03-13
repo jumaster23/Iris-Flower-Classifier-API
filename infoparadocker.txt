@@ -1,0 +1,8 @@
+# 1 — Verifica que Docker está activo
+docker --version
+
+# 2 — Construir la imagen (tarda un poco la primera vez)
+docker build -t iris-classifier .
+
+# 3 — Correr el contenedor
+docker run -p 8001:8001 iris-classifier
